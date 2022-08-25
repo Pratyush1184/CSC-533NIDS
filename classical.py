@@ -11,6 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import Normalizer
 from sklearn.metrics import (precision_score, recall_score,f1_score, accuracy_score)
 
+
 traindata = pd.read_csv('data/kddtrain.csv', header=None)
 testdata = pd.read_csv('data/kddtest.csv', header=None)
 
